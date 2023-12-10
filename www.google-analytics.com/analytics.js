@@ -1,0 +1,434 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<title>Byte Bets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- site favicon -->
+	<link rel="icon" type="image/png" href="assets/images/about/logo.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- All stylesheet and icons css  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/icofont.min.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/odometer.css">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+
+</head>
+
+<body>
+	<!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+	<!-- preloader ending here -->
+
+	<!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-rounded-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+	<!-- ==========shape image Starts Here========== -->
+	<div class="body-shape">
+		<img src="assets/images/shape/body-shape.png" alt="shape">
+	</div>
+	<!-- ==========shape image end Here========== -->
+
+
+
+
+	<!-- ==========Header Section Starts Here========== -->
+	<header class="header-section">
+		<div class="container">
+			<div class="header-holder d-flex flex-wrap justify-content-between align-items-center">
+				<div class="brand-logo d-none d-lg-inline-block">
+					<div class="logo">
+						<a href="#home">
+							<img src="assets/images/logo/logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="header-menu-part">
+					<div class="header-bottom">
+						<div class="header-wrapper justify-content-lg-end">
+							<div class="mobile-logo d-lg-none">
+								<a href="index-2.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+							</div>
+							<div class="menu-area">
+								<ul class="menu">
+                                    <li><a href="#about">ABOUT</a></li>
+									<li><a href="#tokenomics">TOKENOMICS</a></li>
+                                    <li><a href="#roadmap">ROADMAP</a></li>
+
+                                    <li><a href="https://t.me/bytebets" target="_blank">JOIN US</a></li>
+								    <li><a href="https://twitter.com/Bets_ERC" target="_blank">Twitter</a></li>
+                                    
+								</ul>
+								<a href="https://app.bytebets.pro" target="_blank" class="login"><i class="icofont-code"></i> <span>DAPP</span> </a>
+								<a href="https://www.dextools.io/app/en/ether/pair-explorer/0x9c0d36e9cef75161722e00f4ece8c80277cddcb1" target="_blank" class="signup"><i class="icofont-chart-bar-graph"></i> <span>CHART</span></a>
+
+								<!-- toggle icons -->
+								<div class="header-bar d-lg-none">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div class="ellepsis-bar d-lg-none">
+									<i class="icofont-info-square"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- ==========Header Section Ends Here========== -->
+
+
+
+	<!-- ===========Banner Section start Here========== -->
+	<section class="banner" style="background-image: url(assets/images/banner/bg5.jpg);" id="home">
+		<div class="container">
+			<div class="row g-0">
+				<div class="col-xl-6 col-lg-7 col-12">
+					<div class="banner__content">
+						<h3>Welcome to</h3>
+						<h1>Byte Bets</h1>
+						<p>Byte Bets is a cutting-edge crypto betting platform that offers a thrilling and secure gambling experience to its users. As the first game on their platform, Byte Bets introduces a captivating and classic casino favorite: roulette.</p>
+						<a href="https://app.uniswap.org/swap?outputCurrency=0x1ff38aB8b453736ce6Fc7d5aD1d076159E93e973" target="_blank" class="default-button"><span>BUY ON UNISWAP  <i class="icofont-exchange"></i></span> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ===========Banner Section Ends Here========== -->
+
+
+	<!-- ===========counter Section Ends Here========== -->
+	<section class="counter">
+		<div class="container">
+			<div class="counter__area">
+				<div class="row align-items-center">
+					<div class="col-lg-5 counter__left">
+						<div>
+							<h2>YOU CAN WIN UP TO</h2>
+						</div>
+					</div>
+					<div class="col-lg-7 col-12 text-center counter__right">
+						<ul class="d-flex flex-wrap">
+							<li class="counter-text border-count counter-after">
+								<h3 class="m-0">$</h3>
+							</li>
+							<li class="counter-text border-count">
+								<h3 class="counter__number odometer mb-0" data-odometer-final="100000">0</h3>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ===========counter Section Ends Here========== -->
+    
+    <!-- ===========About Section start Here========== -->
+	<section class="about-section" id="about">
+		<div class="container">
+			<div class="section-wrapper padding-top">
+				<div class="row g-4">
+					<div class="col-lg-6">
+						<div class="about-image position-relative">
+							<img src="assets/images/about/logo.png" alt="about-image" class="w-100">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-10">
+						<div class="about-wrapper">
+							<div class="section-header">
+								<h2>What is Byte Bets?</h2>
+							</div>
+							<div class="about-content">
+								<p>With a focus on the burgeoning cryptocurrency market, Byte Bets allows players to make bets using Ethereum. This ensures fast and secure transactions, providing users with an added layer of privacy and convenience.</p>
+								<p>The platform boasts an intuitive and user-friendly interface, allowing both experienced gamblers and newcomers to easily navigate and enjoy their betting experience.</p>
+								<ul class="about-list">
+									<li class="about-item d-flex flex-wrap">
+										<div class="about-item-thumb">
+											<img src="assets/images/about/icon-1.png" alt="Icon">
+										</div>
+										<div class="about-item-content">
+										<br>
+											<h5>Automatic Lottery</h5>
+											<p></p>
+										</div>
+									</li>
+									<li class="about-item d-flex flex-wrap">
+										<div class="about-item-thumb">
+											<img src="assets/images/about/icon-1.png" alt="Icon">
+										</div>
+										<div class="about-item-content"><br>
+											<h5>Fair for everybody</h5>
+											<p></p>
+										</div>
+									</li>
+									<li class="about-item d-flex flex-wrap">
+										<div class="about-item-thumb">
+											<img src="assets/images/about/icon-1.png" alt="Icon">
+										</div>
+										<div class="about-item-content"><br>
+											<h5>Safe System</h5>
+											<p></p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ===========About Section Ends Here========== -->
+    
+	<!-- ===========Collection Section Start Here========== -->
+	<section class="collection-section padding-top padding-bottom" id="tokenomics">
+		<div class="container">
+			<div class="section-header">
+				<h2>TOKENOMICS</h2>
+                <li>
+                    <h3>Total supply: - 1,000,000,000</h3>
+                    <h3>CA: 0x1ff38aB8b453736ce6Fc7d5aD1d076159E93e973</h3>
+                    <h3>3% on every buy - 3% on every sell</h3>
+                </li>
+			</div>
+			<div class="section-wrapper game game-style2">
+				<div class="row g-4 justify-content-center">
+					<div class="col-lg-6 col-12">
+						<div class="game__item item-layer">
+							<div class="game__inner text-center">
+								<div class="game__thumb">
+									<img src="assets/images/game/04.png" alt="game-img">
+								</div>
+								<div class="game__content">
+									<h4>Liquidity Fee</h4>
+									<p>1% LP fee to reduce price fluctuations</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="game__item item-layer">
+							<div class="game__inner text-center">
+								<div class="game__thumb">
+									<img src="assets/images/game/05.png" alt="game-img">
+								</div>
+								<div class="game__content">
+									<h4>Marketing Fee</h4>
+									<p>2% Marketing fee to ensure growth</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ===========Collection Section Ends Here========== -->
+    
+    <!-- ==========pricing plan Section Start Here========== -->
+    <section class="pricing-section padding-top padding-bottom" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Byte Bets ROADMAP</h2>
+            </div>
+            <div class="section-wrapper mt-4">
+                <div class="pricing-plan-wrapper">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="price-item">
+                                <div class="price-item-inner">
+                                    <div class="price-top">
+                                        <h2>Phase 1</h2>
+                                        <p></p>
+                                    </div>
+                                    <div class="price-bottom">
+                                        <ul>
+                                            <li><i class="icofont-tick-mark"></i>
+                                                <p>Launch on Uniswap</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Start marketing</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Release initial dapp</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Target certain markets (4chan/twitter)</p>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="price-item">
+                                <div class="price-item-inner">
+                                    <div class="price-top">
+                                        <h2>Phase 2</h2>
+                                        <p></p>
+                                    </div>
+                                    <div class="price-bottom">
+                                        <ul>
+                                            <li><i class="icofont-tick-mark"></i>
+                                                <p>Release additional games</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Continue Marketing</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Release initial betting dapp</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Add more betting options</p>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="price-item">
+                                <div class="price-item-inner">
+                                    <div class="price-top">
+                                        <h2>Phase 3</h2>
+                                        <p></p>
+                                    </div>
+                                    <div class="price-bottom">
+                                        <ul>
+                                            <li><i class="icofont-tick-mark"></i>
+                                                <p>Focus on listing sites</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Exchange listings</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>Billboards</p>
+                                            </li>
+                                            <li><i class="icofont-arrow-right"></i>
+                                                <p>More improvements</p>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+	<!-- ===========Game Section Ends Here========== -->
+    <div class="game game-style3 overflow-hidden" style="background-image:url(assets/images/game/bg5.html)">
+        <div class="container">
+            <div class="section-wrapper">
+				<div class="row justify-content-center g-4 align-items-center">
+					<div class="col-lg-6 col-12">
+						<div class="game__thumb">
+							<img src="assets/images/game/09.png" alt="game-thumb">
+						</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="game__content">
+							<div class="section-header text-start">
+								<h2>DISCLAIMER</h2>
+								<p>When purchasing this token you will agree to the fullest extent that you have done research considering cryptocurrency DEFI- space and to not hold this token or its affiliated persons from and against all losses that arise from or relate to your purchase. We as a team will do our best to work for this token and it's value.</p>
+								<a href="https://www.dextools.io/app/en/ether/pair-explorer/0x9c0d36e9cef75161722e00f4ece8c80277cddcb1" target="_blank" class="default-button"><span>CHART <i class="icofont-chart-bar-graph"></i></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+	<!-- ===========Game Section Ends Here========== -->
+
+	<!-- ================ footer Section start Here =============== -->
+    <footer class="footer-section" style="background-image: url(assets/images/footer/bg5.html);">
+        <div class="footer-top">
+            <div class="container">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <div class="footer-bottom-content text-center">
+                            <p>&copy;2023 <a href="index-2.html">Byte Bets</a> - All Rights Reserved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ================ footer Section end Here =============== -->
+
+
+
+
+
+
+
+	<!-- All Needed JS -->
+	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="assets/js/circularProgressBar.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/lightcase.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/viewport.jquery.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function () {
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('set', 'anonymizeIp', true);
+		ga('set', 'transport', 'beacon');
+		ga('send', 'pageview')
+	</script>
+	<script src="../www.google-analytics.com/analytics.js" async></script>
+
+
+
+</body>
+
+
+
+</html>
