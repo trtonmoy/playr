@@ -1,0 +1,10 @@
+{
+    "routes": [
+      { "src": "/", "dest": "/index.html" },
+      { "src": "/success", "dest": "/success.html" },
+      { "src": "/failed", "dest": "/failed.html" },
+      { "src": "/privacypolicy", "dest": "/privacypolicy.html" },
+      { "src": "/requestdatadeletion", "dest": "/requestdatadeletion.html" }
+    ]
+  }
+  
